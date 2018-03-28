@@ -8,10 +8,10 @@
 You are given the following list of "Documents" where there exist only 3 words: "Apple", "Orange", and "Banana". Every sentence or document is made up of these words and they become the basis of a 3 dimensional vector space. The "sentence" or "document" is simply a linear combination of these vectors where the number of appearances of the words is the coefficient along that dimension:
 
 ```Python
-corpus = ['Apple Orange Orange Apple',\ # [ 2.  0.  2.]
-  'Apple Banana Apple Banana',\ # [ 2.  2.  0.]
-  'Banana Apple Banana Banana Banana Apple',\ # [ 2.  4.  0.]
-  'Banana Orange Banana Banana Orange Banana',\ #[ 0.  4.  2.]
+corpus = ['Apple Orange Orange Apple', # [ 2.  0.  2.]
+  'Apple Banana Apple Banana', # [ 2.  2.  0.]
+  'Banana Apple Banana Banana Banana Apple', # [ 2.  4.  0.]
+  'Banana Orange Banana Banana Orange Banana', #[ 0.  4.  2.]
   'Banana Apple Banana Banana Orange Banana'] # [ 1.  4.  1.]
 ```
 
